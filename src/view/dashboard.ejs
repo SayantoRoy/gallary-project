@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="/css/styleHead.css">
+
+  <title>GallArt</title>
+</head>
+<body>
+
+  <header>
+    <a href="/" class="logo">GallArt</a>
+    <ul>
+      <% for (let i = 0 ; i < nav.length ; i++) { %>
+      <li><a href="<%=nav[i].link%>" id="line"><%=nav[i].title%></a></li>
+        
+      <%}%>
+      <li><a href="" onclick="alert('localhost:3000/guest-gallary-view/<%=email%> - This is your public Gallary URL. Share it and Enjoy Toh=gether :) ');" id="line">Share Gallary</a></li>
+    </ul>
+  </header>
+<div class="content">
+  
+
+	</div>
+	<div class="showcase">
+    
+    
+    <% for(let i = 0; i< files.length; i++ ) {%>
+      <a href="/image-view/<%=files[i]%>"><img src="<%=path%>/<%=files[i]%>"></a> 
+      
+    <%}%>
+    
+    <% if (typeof msg != 'undefined') { %>
+      <h1 style="font-size: larger; color: black;"><%=msg%></h1>
+      <% } %>
+    <% if (files.length === 0) { %>
+      <h1 style="font-size: larger; color: black;">No Images to Show. Please Upload Some Images.</h1>
+      <% } %>
+  </div>
+  <script>
+    window.addEventListener('scroll', function() {
+  let header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 0);
+});
+  </script>
+ 
+
+
+</div>
+</body>
+</html>

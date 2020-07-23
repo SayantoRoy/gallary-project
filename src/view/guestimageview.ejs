@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style2.css">
+	<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/styleHead.css">
+    <title>Register</title>
+</head>
+<body >
+	
+	<header>
+		<a href="/" class="logo">GallArt</a>
+		<ul>
+		  <% for (let i = 0 ; i < nav.length ; i++) { %>
+		  <li><a href="<%=nav[i].link%>" id="line"><%=nav[i].title%></a></li>
+		  <%}%>
+		</ul>
+	  </header>
+	
+	  <% if (typeof msg != 'undefined') { %>
+        <h1 style="font-size: larger; color: Red; text-align: center;"><%=msg%></h1>
+        <% } else {%>
+
+    <div >
+      <img src="<%=path %>" id="img"class="centerimg">    
+      
+    </div>
+
+    <button type="button" style="position: relative; left: 70%; background-color: green;" 
+       id="share" onclick="document.location = '/download/<%=user%>/<%=resource%>'">Download</button>
+   <%}%>
+	
+     
+    
+    
+
+
+<script>
+    const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+</script>
+
+<script>
+    window.addEventListener('scroll', function() {
+  let header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 0);
+});
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+

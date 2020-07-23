@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/styleHead.css">
+  <title>GallArt</title>
+</head>
+<body>
+
+  <header>
+    <a href="/" class="logo">GallArt</a>
+    <ul>
+      <% for (let i = 0 ; i < nav.length ; i++) { %>
+      <li><a href="<%=nav[i].link%>" id="line"><%=nav[i].title%></a></li>
+      <%}%>
+    </ul>
+  </header>
+  
+
+
+<div class="content">
+	</div>
+	<div class="showcase">
+    
+    
+    <% for(let i = 0; i< files.length; i++ ) {%>
+      <a href="/guest-view/<%=id%>/<%=files[i]%>"><img src="<%=path%>/<%=files[i]%>"></a> 
+      
+    <%}%>
+    
+    <% if (typeof msg != 'undefined') { %>
+      <h1 style="font-size: larger; color: black;"><%=msg%></h1>
+      <% } %>
+    <% if (files.length === 0) { %>
+      <h1 style="font-size: larger; color: black;">No Images to Show</h1>
+      <% } %>
+  </div>
+  
+  <script>
+    window.addEventListener('scroll', function() {
+  let header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 0);
+});
+
+  </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/welcomestyle.css">
+  <link rel="stylesheet" href="/css/styleHead.css">
+  <title>GallArt</title>
+</head>
+<body>
+  <html lang="en">
+<head>
+  
+</head>
+<body>
+
+  <header>
+		<a href="/" class="logo">GallArt</a>
+		<ul >
+		  <% for (let i = 0 ; i < nav.length ; i++) { %>
+		  <li ><a href="<%=nav[i].link%>" id="line"><%=nav[i].title%></a></li>
+		  <%}%>
+		</ul>
+    </header>
+
+    <section >
+      <div class="title">
+        <span>GallArt
+          <span style = "font-size: small;">This project is a basic Personal Gallary where the user can Upload and share specific images or their
+            account with anyone who they want to see it. Every image will have an unique shareable link to that specific image.
+            <br>
+            <br>
+            <p style="font-size: large;">ENJOY!!</p>
+          </span>
+        </span>
+       <br>
+          <span>
+            Project By
+            <a target="_blanck" href="https://www.linkedin.com/in/sayanto-roy-46892a161/">
+              Sayanto Roy
+              </a>
+            </span>
+
+            
+      </div>
+  </section>
+
+
+
+<script>
+   
+  window.addEventListener('scroll', function() {
+  let header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY < 0);
+});
+
+</script>
+
+</body>
+</html>
+</body>
+</html>

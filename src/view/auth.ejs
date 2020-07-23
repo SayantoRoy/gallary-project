@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style2.css">
+	<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/styleHead.css">
+    <title>Register</title>
+</head>
+<body>
+	
+	<header>
+		<a href="/" class="logo">GallArt</a>
+		<ul>
+		  <% for (let i = 0 ; i < nav.length ; i++) { %>
+		  <li><a href="<%=nav[i].link%>"><%=nav[i].title%></a></li>
+		  <%}%>
+		</ul>
+	  </header>
+	
+
+<div class="container" id="container" style="padding-top: 200px;">
+	<div class="form-container sign-up-container">
+		<form action="/users/register" method="POST">
+			<h1 style="color: #1b1b1b;">Create Account</h1>
+			
+      <%- include ('./partials/messages'); -%>
+			<input type="text" placeholder="Name" name="name"/>
+			<input type="email" placeholder="Email" name="email"/>
+      <input type="password" placeholder="Password" name="password"/>
+			<input type="password" placeholder="Repeat Password" name="password2"/>
+			<button>Register</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="/users/login" method="POST">
+			<h1 style="color: #1b1b1b;">LogIn</h1>
+      <%- include ('./partials/messages'); -%>
+			<input type="email" placeholder="Email" name="email"/>
+      <input type="password" placeholder="Password" name="password"/>
+			<button>Login</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back! LogIn Here</h1>
+				<p>Upload New Pics and Share Them</p>
+				<button class="ghost" id="signIn">Login</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend! Register Here</h1>
+				<p>Register and Start the Journey</p>
+				<button class="ghost" id="signUp">Register</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+    const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+</script>
+
+<script>
+    window.addEventListener('scroll', function() {
+  let header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 0);
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
