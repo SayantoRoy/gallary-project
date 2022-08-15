@@ -46,7 +46,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 This section contains the images of the project along with the screen names and respective functions.
 
-*<b>Register/Login Screen</b> - This is the first screen through which one can enter into the zone. Either Register (if you haven't registered yet) or Login if you already have registered. The Email and Password are checked from a table in Database in which the registered user data is stored.
+<b>Register/Login Screen</b> - This is the first screen through which one can enter into the zone. Either Register (if you haven't registered yet) or Login if you already have registered. The Email and Password are checked from a table in Database in which the registered user data is stored.
+</br>
 </br>
 ![Register Login][register-login]
 </br>
