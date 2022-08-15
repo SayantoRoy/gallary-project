@@ -48,48 +48,40 @@ This section contains the images of the project along with the screen names and 
 
 * <b>Register/Login Screen</b> - This is the first screen through which one can enter into the zone. Either Register (if you haven't registered yet) or Login if you already have registered. The Email and Password are checked from a table in Database in which the registered user data is stored.
 </br>
-</br>
 ![Register Login][register-login]
 </br>
 </br>
 * <b>Gallery</b> - This is the main screen where one can see all the images/arts that they have uploaded.
-</br>
 </br>
 ![Gallery][gallery]
 </br>
 </br>
 * <b>Upload Page</b> - Then comes the page through which one can upload their pics. An added validation in the upload screen is the size where more than 10 MB of image cannot be uploaded along with the file types. Once you choose the file from your system and upload a success message with the image is shown.
 </br>
-</br>
 ![Upload Image][upload-image]
 </br>
 </br>
 * <b>Upload Page</b> - Then comes the page through which one can upload their pics. An added validation in the upload screen is the size where more than 10 MB of image cannot be uploaded along with the file types. Once you choose the file from your system and upload a success message with the image is shown.
-</br>
 </br>
 ![Upload Image][upload-image]
 </br>
 </br>
 * <b>Image View</b> - This is the image view page from where one can download the image back and also generate a shareable link which will allow guests to see the image without even registering or loggin in the project.
 </br>
-</br>
 ![Image View][image-view]
 </br>
 </br>
 * <b>Guest Image View</b> - This is the guest image view page. A guest can only download and view the image. There is no need for one to register or log in to view the image from the shared link.
-</br>
 </br>
 ![Guest Image View][guest-image-view]
 </br>
 </br>
 * <b>Guest Gallery View</b> - This is the guest gallery view page. A guest can see all the images and can also see the individual image after clicking on one through the shared link.
 </br>
-</br>
 ![Guest Gallery View][guest-gallery-view]
 </br>
 </br>
 * <b>Mongo DB cloud Database</b> - This is the dashboard of the cloud MongoDB database that is being used for this project. This database contains all the necessary data for the project to work smoothly. One can simply change the mongodb config file to connect their own database.
-</br>
 </br>
 ![Mongo db][mongo-db]
 
