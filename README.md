@@ -1,8 +1,4 @@
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h2 align="center">GALLART - A Shareable Gallery</h2>
 
   <p align="center">
@@ -45,8 +41,48 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- GETTING STARTED -->
+## The Project At a Glance
+
+This section contains the images of the project along with the screen names and respective functions.
+
+*<b>Register/Login Screen</b> - This is the first screen through which one can enter into the zone. Either Register (if you haven't registered yet) or Login if you already have registered. The Email and Password are checked from a table in Database in which the registered user data is stored.
+![Register Login][register-login]
+</br>
+*<b>Gallery</b> - This is the main screen where one can see all the images/arts that they have uploaded.
+![Gallery][gallery]
+</br>
+*<b>Upload Page</b> - Then comes the page through which one can upload their pics. An added validation in the upload screen is the size where more than 10 MB of image cannot be uploaded along with the file types. Once you choose the file from your system and upload a success message with the image is shown.
+![Upload Image][upload-image]
+</br>
+*<b>Upload Page</b> - Then comes the page through which one can upload their pics. An added validation in the upload screen is the size where more than 10 MB of image cannot be uploaded along with the file types. Once you choose the file from your system and upload a success message with the image is shown.
+![Upload Image][upload-image]
+</br>
+*<b>Image View</b> - This is the image view page from where one can download the image back and also generate a shareable link which will allow guests to see the image without even registering or loggin in the project.
+![Image View][image-view]
+</br>
+*<b>Image View</b> - This is the image view page from where one can download the image back and also generate a shareable link which will allow guests to see the image without even registering or loggin in the project.
+![Image View][image-view]
+</br>
+*<b>Guest Image View</b> - This is the guest image view page. A guest can only download and view the image. There is no need for one to register or log in to view the image from the shared link.
+![Guest Image View][guest-image-view]
+</br>
+*<b>Guest Gallery View</b> - This is the guest gallery view page. A guest can see all the images and can also see the individual image after clicking on one through the shared link.
+![Guest Gallery View][guest-gallery-view]
+</br>
+*<b>Mongo DB cloud Database</b> - This is the dashboard of the cloud MongoDB database that is being used for this project. This database contains all the necessary data for the project to work smoothly. One can simply change the mongodb config file to connect their own database.
+![Mongo db][mongo-db]
+
+
 
 [product-screenshot]: /src/images/MainPage.PNG
+[register-login]: /src/images/RegisterLogin.PNG
+[gallery]: /src/images/Dashboard.PNG
+[upload-image]: /src/images/File%20Uploading.PNG
+[image-view]: /src/images/ViewingAFile.PNG
+[guest-image-view]: /src/images/Seeing%20a%20single%20IMage%20View%20Guest.PNG
+[guest-gallery-view]:/src/images/WholeGuestGallaryView.PNG
+[mongo-db]:/src/images/DBView.PNG
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [Html]:https://img.shields.io/badge/Html-FFA500?style=for-the-badge&logo=html&logoColor=white
