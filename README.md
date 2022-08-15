@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 
 There are many projects and websites where one can upload their art/image/pic and share with the world but this project is one that I wanted to create for the artists whose main focus was to share the art project they are working on, with just very specific group of people.
  
