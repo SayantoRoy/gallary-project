@@ -86,6 +86,33 @@ This section contains the images of the project along with the screen names and 
 </br></br>
 ![Mongo db][mongo-db]
 
+### Installation
+
+_Below are the steps that you can follow to download the project and start working with it._
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/SayantoRoy/gallary-project.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Enter your Mongodb connection string in `/src/config/keys.js`
+   ```js
+    MongoURI : "mongodb+srv://<user>:<password>@atlascluster.p0w624v.mongodb.net/?retryWrites=true&w=majority"
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Sayanto Roy - [@SayantoRoy] (https://www.linkedin.com/in/sayanto-roy-dev/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 [product-screenshot]: /src/images/MainPage.PNG
