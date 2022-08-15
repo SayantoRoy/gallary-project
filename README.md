@@ -109,7 +109,7 @@ _Below are the steps that you can follow to download the project and start worki
 <!-- CONTACT -->
 ## Contact
 
-Sayanto Roy - [@SayantoRoy] (https://www.linkedin.com/in/sayanto-roy-dev/)
+Sayanto Roy - [@SayantoRoy](https://www.linkedin.com/in/sayanto-roy-dev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
