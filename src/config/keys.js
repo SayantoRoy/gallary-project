@@ -1,3 +1,4 @@
 module.exports = {
-    MongoURI : "mongodb+srv://frisk:dokidoki@node-project.i9wsp.mongodb.net/node?retryWrites=true&w=majority"
+    MongoURI : "mongodb+srv://frisk:dokidoki@atlascluster.p0w624v.mongodb.net/?retryWrites=true&w=majority"
+    
 }
