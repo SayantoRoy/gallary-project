@@ -49,13 +49,13 @@ This section should list any major frameworks/libraries used to bootstrap your p
 [product-screenshot]: /src/images/MainPage.PNG
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[Html]:https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png
+[Html]:https://img.shields.io/badge/Html-FFA500?style=for-the-badge&logo=html&logoColor=white
 [Html-url]:https://developer.mozilla.org/en-US/docs/Web/HTML
-[Css]:https://i.pinimg.com/736x/e4/3e/4c/e43e4cd41ddffc21d2e6600dfca20306--logo-software-logotype.jpg
+[Css]:https://img.shields.io/badge/Css-blue?style=for-the-badge&logo=css&logoColor=white
 [Css-url]:https://developer.mozilla.org/en-US/docs/Web/CSS
-[Node.js]:https://nodejs.org/static/images/logo.svg
+[Node.js]:https://img.shields.io/badge/node.js-green?style=for-the-badge&logo=node.js&logoColor=white
 [Nodejs-url]:https://nodejs.org/en/
-[Express.js]:https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/express-logo.png
+[Express.js]:https://img.shields.io/badge/express.js-white?style=for-the-badge&logo=express.js&logoColor=grey
 [Expressjs-url]:https://expressjs.com/
-[Mongo.db]:https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress
+[Mongo.db]:https://img.shields.io/badge/mongodb-192841?style=for-the-badge&logo=mongodb&logoColor=white
 [Mongodb-url]:https://www.mongodb.com/
